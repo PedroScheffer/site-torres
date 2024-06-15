@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Título da Página</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Latest compiled and minified CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <header class="bg-black text-white text-center p-5">
+        <h1>Torres - RS</h1>
+        <p>Seu guia de Viagem para a Torrika</p>
+    </header>
+    <!-- A grey horizontal navbar that becomes vertical on small screens -->
+    <nav class="navbar navbar-expand-sm bg-dark">
+
+        <div class="container-fluid text">
+            <!-- Links -->
+            <ul class="navbar-nav">
+                <div class="dropdown border border-0">
+                    <button type="button" class="btn btn-primary dropdown-toggle bg-dark" data-bs-toggle="dropdown">
+                        Menu
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li<li><button id="meuBotaoMapa" class="btn btn-link">Mapa da Cidade</button></li>
+                    </li>
+                        <li><a class="dropdown-item" href="">Pontos Turisticos</a></li>
+                        <li><a class="dropdown-item" href="">Entre em Contato</a></li>
+                        <li><a class="dropdown-item" href="">Quem somos?</a></li>
+                    </ul>
+                </div>
+
+            </ul>
+
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="#contato">Contato</a>
+                </li>
+
+            </ul>
+        </div>
+
+    </nav>
+
+    </nav>
+
+    <main class="container-fluid">
+        <section class="container">
+            <div class="row">
+                <div class="col-12 mt-3">
+                    <div class="card shadow" style="max-width: 100%;">
+                        <img class="card-img-top" src="./img/mapatorres.png" alt="Card image">
+                        <div class="card-body">
+                            <h4 class="card-title text-center">Mapa</h4>
+                            <p class="card-text text-center">Torres - RS</p>
+                            <div class="d-flex justify-content-center">
+                                <button id="meuBotaoMapa" class="btn btn-primary">Saiba mais</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 mt-3">
+                    <div class="card shadow" style="max-width: 100%;">
+                        <img class="card-img-top" src="./img/torres.jpg" alt="Card image">
+                        <div class="card-body">
+                            <h4 class="card-title text-center">Pontos Turísticos</h4>
+                            <p class="card-text text-center">Torres - RS</p>
+                            <div class="d-flex justify-content-center">
+                                <a href="./pages/pontosTuristicos.html" class="btn btn-primary">Saiba mais</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        
+        
+        <section id="contato">
+            <h2 class="text-center pt-5 pb-4">Contato</h2>
+            <form class="w-75 border border-5 rounded m-auto p-2 shadow">
+                <label class="form-label" for="">Nome:</label>
+                <input class="form-control" type="text">
+                <label class="form-label" for="">Telefone:</label>
+                <input class="form-control" type="number">
+                <label class="form-label" for="">E-mail:</label>
+                <input class="form-control" type="email">
+                <label class="form-label" for="">Mensagem:</label>
+                <textarea placeholder="Digite aqui sua Mensagem..." class="form-control"></textarea>
+
+                <button type="button" class="btn btn-primary mt-3">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer class="bg-black text-white text-center p-3 mt-5">
+        <p>&copy; Todos os Direitos Reservados</p>
+    </footer>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>

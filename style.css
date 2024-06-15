@@ -1,0 +1,23 @@
+.card-img-top {
+    width: 100%; 
+    height: auto; 
+}
+
+@media (min-width: 992px) {
+    .card {
+        width: 750px;
+        margin: 0 auto; 
+    }
+}
+
+#meuBotaoMapa {
+    background: none;
+    border: none;
+    color: black;
+    /* padding: 0; */
+    text-decoration: none;
+}
+
+#meuBotaoMapa:hover {
+    text-decoration: none;
+}
