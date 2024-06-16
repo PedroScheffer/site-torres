@@ -10,14 +10,9 @@
     }
 }
 
-#meuBotaoMapa {
+#meuBotaoMapa, #meuBotaoPontoTuristico, #meuBotaoContato, #meuBotaoQuemSomos {
     background: none;
     border: none;
     color: black;
-    /* padding: 0; */
-    text-decoration: none;
-}
-
-#meuBotaoMapa:hover {
     text-decoration: none;
 }

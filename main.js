@@ -3,9 +3,9 @@ function openMap() {
     var isAndroid = ua.indexOf("android") > -1;
     var isIOS = /iphone|ipad|ipod/.test(ua);
     
-    var latitude = '-29.335278';
+    var latitude = '-29.3371563';
     var longitude = '-49.726944';
-    var zoom = '12';
+    var zoom = '14';
     
     if(isAndroid) {
       window.open(`geo:${latitude},${longitude}?z=${zoom}`);
@@ -17,5 +17,6 @@ function openMap() {
   }
   
   document.getElementById('meuBotaoMapa').addEventListener('click', openMap);
+  document.getElementById('meuBotaoMapa2').addEventListener('click', openMap);
 
   
